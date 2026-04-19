@@ -1,0 +1,41 @@
+.header {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+}
+.nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.nav a {
+  color: #4b5563;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav a:hover {
+  color: #3b82f6;
+}
+.btn-sm {
+  background: #111827;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+}
+.btn-sm:hover {
+  background: #374151;
+}
